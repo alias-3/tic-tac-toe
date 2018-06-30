@@ -1,0 +1,56 @@
+.btn:focus, .btn:active {
+    outline: none !important;
+}
+
+#header{
+	color: #AEAEAE;
+	font-family:'Roboto',sans-serif;
+	font-size: 7vw;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.o, .x{
+	color: white !important;
+}
+
+#reset{
+	font-family:'Arial', sans-serif;
+	border-radius: 10px;
+	text-align: center;
+}
+
+hr{
+	border: solid #AEAEAE 0.3px;
+	display: block;
+	width: 70%;
+
+}
+
+#board{
+
+	padding: 5vw 5vw 5vw 5vw;
+	border-radius: 15px;
+	margin: 3vw 5vw 5vw 5vw ;
+	display: block;
+	justify-content: center;
+}
+
+.tile{
+	background-color: #900C3F;
+	height: 6vw;
+	width:	7vw;
+	font-family:'Arial', sans-serif;
+	color: white;
+	font-size: 3vw;
+	text-align: center; 
+	font-weight: normal;
+	border-radius: 12px;
+	text-align: center;
+	outline: none;
+}
+
+.tile:hover{
+	background-color: #FFF9C8;
+}
+

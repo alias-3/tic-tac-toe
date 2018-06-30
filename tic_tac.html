@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+ 	<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">
+ 	<script src="js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" href="css/style.css"> 	
+ 	<script src="js/script.js"></script>
+</head>
+<body class="container" style=" background-color:#F0EFF0">
+	
+	<div>
+		<header id= "header">
+			Tic Tac Toe
+			<hr>
+		</header>
+	</div>
+
+	
+	<div id="board">
+		<table align="center">
+			<tr>
+				<td><button id = "box1" class="btn btn-default tile">*</button></td>
+				<td><button id = "box2" class="btn btn-default tile">*</button></td>
+				<td><button id = "box3" class="btn btn-default tile">*</button></td>
+			</tr>
+			<tr>
+				<td><button id = "box4" class="btn btn-default tile">*</button></td>
+				<td><button id = "box5" class="btn btn-default tile">*</button></td>
+				<td><button id = "box6" class="btn btn-default tile">*</button></td>
+			</tr>
+			<tr>
+				<td><button id = "box7" class="btn btn-default tile">*</button></td>
+				<td><button id = "box8" class="btn btn-default tile">*</button></td>
+				<td><button id = "box9" class="btn btn-default tile">*</button></td>
+			</tr>
+			
+		</table>
+		
+		
+		<div class="container row" style="margin-top: 3vw">
+			<button class="btn btn-default btn-md col-md-12" id="reset" style="background-color: #FFE400"><a href="tic_tac.html" style="text-decoration: none; color: black;">Reset</a></button>	
+			<button class="btn btn-primary btn-md col" data-toggle="modal" data-target="#myModal" style="border-radius: 10px">Instructions</button>	
+		</div>		
+	</div>
+
+
+
+	 <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog modal-sm">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Instructions...</h4>
+	        </div>
+	        <div class="modal-body">
+	        <p>This is the classic tic-tac-toe game for 2 players.<div>Player 1 -> 'O'</div><div>Player 2 -> 'X'</div>Winner has to acquire all the places such that a straight line can pass through the blocks.The first one to do so wins.Happy playing :)</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div> 
+	    </div>
+	  </div>
+	</div>	
+
+</body>
+
+</html>
