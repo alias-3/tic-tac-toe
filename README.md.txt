@@ -1,1 +1,0 @@
-The classic two player tic-tac-toe game developed in jQuery
