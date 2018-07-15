@@ -51,7 +51,7 @@ $(document).ready(function(){
 				(box7.hasClass('x')&&box8.hasClass('x')&&box9.hasClass('x'))||
 				(box2.hasClass('x')&&box5.hasClass('x')&&box8.hasClass('x')))
 			{
-				alert("Player 'X' wins. Reset to pplay again");
+				alert("Player 'X' wins. Reset to play again");
 			}
 			else if(move==9){
 				alert('Tie.Reset to play again.');
