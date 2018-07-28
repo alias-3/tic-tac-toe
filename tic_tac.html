@@ -2,27 +2,23 @@
 <head>
 	<meta charset="utf-8">
  	<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	
- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
  	<link rel="stylesheet" href="css/bootstrap.min.css">
  	<script src="js/bootstrap.min.js"></script>
  	<link rel="stylesheet" href="css/style.css"> 	
  	<script src="js/script.js"></script>
+ 	<title>Tic_Tac_Toe</title>
 </head>
-<body class="container" style=" background-color:#F0EFF0">
-	
+<body class="container" style=" background: url(p.png) center right no-repeat;background-size: 25%;">
 	<div>
 		<header id= "header">
 			Tic Tac Toe
 			<hr>
 		</header>
 	</div>
-
-	
-	<div id="board">
+	<div id="board" style="margin-top: 0">
 		<table align="center">
 			<tr>
 				<td><button id = "box1" class="btn btn-default tile">*</button></td>
@@ -38,13 +34,10 @@
 				<td><button id = "box7" class="btn btn-default tile">*</button></td>
 				<td><button id = "box8" class="btn btn-default tile">*</button></td>
 				<td><button id = "box9" class="btn btn-default tile">*</button></td>
-			</tr>
-			
+			</tr>			
 		</table>
-		
-		
 		<div class="container row" style="margin-top: 3vw">
-			<button class="btn btn-default btn-lg" id="reset" style="background-color: #FFE400"><a href="tic_tac.html" style="text-decoration: none; color: black;">Reset</a></button>	
+			<button class="btn btn-default btn-lg" id="reset" style="background-color: #FFE400"><a onClick="location.reload()" style="text-decoration: none; color: black;">Play again!</a></button>	
 			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="border-radius: 10px">Instructions</button>	
 		</div>		
 	</div>

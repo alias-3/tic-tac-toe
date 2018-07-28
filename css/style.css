@@ -1,12 +1,18 @@
-.btn:focus, .btn:active {
+.btn:focus{
     outline: none !important;
 }
+
+button:hover{
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.7), 0 0 0 1px rgba(0,0,0,0.08);
+	font-weight: bold;
+}
+
 
 #header{
 	color: #AEAEAE;
 	font-family:'Roboto',sans-serif;
 	font-size: 7vw;
-	font-weight: lighter;
+	font-weight: normal;
 	text-align: center;
 }
 
