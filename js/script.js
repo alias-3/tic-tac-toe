@@ -32,9 +32,11 @@ $(document).ready(function(){
 				(box7.hasClass('o')&&box8.hasClass('o')&&box9.hasClass('o')))
 			{
 				alert("Player 'O' wins. Reset to play again");
+				window.location.reload();
 			}
 			else if(move==9){
 				alert('Tie.Reset to play again.');
+				window.location.reload();
 			}
 		}
 		else{
@@ -52,9 +54,11 @@ $(document).ready(function(){
 				(box2.hasClass('x')&&box5.hasClass('x')&&box8.hasClass('x')))
 			{
 				alert("Player 'X' wins. Reset to play again");
+				window.location.reload();
 			}
 			else if(move==9){
 				alert('Tie.Reset to play again.');
+				window.location.reload();
 			}
 		}
 	})
